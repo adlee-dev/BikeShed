@@ -9,44 +9,38 @@
 /* Begin PBXBuildFile section */
 		0E5618A61F892BE00052C182 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A51F892BE00052C182 /* Product.swift */; };
 		0E5618A81F892C2A0052C182 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A71F892C2A0052C182 /* Measurement.swift */; };
+		0E5618B31F8930FA0052C182 /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B21F8930FA0052C182 /* Hub.swift */; };
+		0E5618B51F8931900052C182 /* Rim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B41F8931900052C182 /* Rim.swift */; };
+		0E5618B71F8931E30052C182 /* Tire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B61F8931E30052C182 /* Tire.swift */; };
+		0E5618B91F8931FF0052C182 /* Tube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B81F8931FF0052C182 /* Tube.swift */; };
+		0E5618BB1F89322D0052C182 /* BottomBracket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618BA1F89322D0052C182 /* BottomBracket.swift */; };
+		0E5618BD1F89325E0052C182 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618BC1F89325E0052C182 /* Chain.swift */; };
+		0E5618C11F8932B80052C182 /* Chainrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618C01F8932B80052C182 /* Chainrings.swift */; };
+		0E5618C31F8933670052C182 /* Cogs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618C21F8933670052C182 /* Cogs.swift */; };
+		0E5618C51F8933900052C182 /* Cranks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618C41F8933900052C182 /* Cranks.swift */; };
+		0E5618C71F8935300052C182 /* Derailleur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618C61F8935300052C182 /* Derailleur.swift */; };
+		0E5618C91F89359A0052C182 /* Pedals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618C81F89359A0052C182 /* Pedals.swift */; };
+		0E5618CB1F8935DB0052C182 /* Fork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618CA1F8935DB0052C182 /* Fork.swift */; };
+		0E5618CD1F8936420052C182 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618CC1F8936420052C182 /* Frame.swift */; };
+		0E5618CF1F8936770052C182 /* GearShifter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618CE1F8936770052C182 /* GearShifter.swift */; };
+		0E5618D11F8936A30052C182 /* Handlebars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618D01F8936A30052C182 /* Handlebars.swift */; };
+		0E5618D31F8937070052C182 /* Headset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618D21F8937070052C182 /* Headset.swift */; };
+		0E5618D51F89372C0052C182 /* Saddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618D41F89372C0052C182 /* Saddle.swift */; };
+		0E5618D71F89373F0052C182 /* SeatPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618D61F89373F0052C182 /* SeatPost.swift */; };
+		0E5618D91F89375B0052C182 /* Stem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618D81F89375B0052C182 /* Stem.swift */; };
+		0E5618DB1F8937830052C182 /* Wheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618DA1F8937830052C182 /* Wheel.swift */; };
+		0E5618DD1F8937E50052C182 /* Drivetrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618DC1F8937E50052C182 /* Drivetrain.swift */; };
+		0E5618DF1F8938160052C182 /* Brake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618DE1F8938160052C182 /* Brake.swift */; };
+		0E5618E11F89384A0052C182 /* BrakeLever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E01F89384A0052C182 /* BrakeLever.swift */; };
+		0E5618E31F89388A0052C182 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E21F89388A0052C182 /* Bike.swift */; };
+		0E5618E51F8940B70052C182 /* BikeShedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E41F8940B70052C182 /* BikeShedTests.swift */; };
 		0E8499711F6D9AA600F82BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499701F6D9AA600F82BBF /* AppDelegate.swift */; };
 		0E8499731F6D9AA600F82BBF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499721F6D9AA600F82BBF /* FirstViewController.swift */; };
 		0E8499751F6D9AA600F82BBF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499741F6D9AA600F82BBF /* SecondViewController.swift */; };
 		0E8499781F6D9AA600F82BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8499761F6D9AA600F82BBF /* Main.storyboard */; };
 		0E84997A1F6D9AA600F82BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8499791F6D9AA600F82BBF /* Assets.xcassets */; };
 		0E84997D1F6D9AA600F82BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E84997B1F6D9AA600F82BBF /* LaunchScreen.storyboard */; };
-		0E8499881F6D9AA600F82BBF /* BikeShedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499871F6D9AA600F82BBF /* BikeShedTests.swift */; };
-		0E849A7D1F6DA18F00F82BBF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E849A7B1F6DA18F00F82BBF /* Realm.framework */; };
-		0E849A7E1F6DA18F00F82BBF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E849A7C1F6DA18F00F82BBF /* RealmSwift.framework */; };
-		0E849A9D1F6DA22700F82BBF /* Bike_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A801F6DA22700F82BBF /* Bike_Realm.swift */; };
-		0E849A9E1F6DA22700F82BBF /* BottomBracket_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A811F6DA22700F82BBF /* BottomBracket_Realm.swift */; };
-		0E849A9F1F6DA22700F82BBF /* Brake_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A821F6DA22700F82BBF /* Brake_Realm.swift */; };
-		0E849AA01F6DA22700F82BBF /* BrakeLever_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A831F6DA22700F82BBF /* BrakeLever_Realm.swift */; };
-		0E849AA11F6DA22700F82BBF /* Chain_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A841F6DA22700F82BBF /* Chain_Realm.swift */; };
-		0E849AA21F6DA22700F82BBF /* ChainRings_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A851F6DA22700F82BBF /* ChainRings_Realm.swift */; };
-		0E849AA31F6DA22700F82BBF /* Cogs_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A861F6DA22700F82BBF /* Cogs_Realm.swift */; };
-		0E849AA41F6DA22700F82BBF /* Cranks_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A871F6DA22700F82BBF /* Cranks_Realm.swift */; };
-		0E849AA51F6DA22700F82BBF /* Derailleur_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A881F6DA22700F82BBF /* Derailleur_Realm.swift */; };
-		0E849AA61F6DA22700F82BBF /* Drivetrain_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A891F6DA22700F82BBF /* Drivetrain_Realm.swift */; };
 		0E849AA71F6DA22700F82BBF /* Enumerations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8A1F6DA22700F82BBF /* Enumerations.swift */; };
-		0E849AA81F6DA22700F82BBF /* Fork_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8B1F6DA22700F82BBF /* Fork_Realm.swift */; };
-		0E849AA91F6DA22700F82BBF /* Frame_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8C1F6DA22700F82BBF /* Frame_Realm.swift */; };
-		0E849AAA1F6DA22700F82BBF /* GearShifter_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8D1F6DA22700F82BBF /* GearShifter_Realm.swift */; };
-		0E849AAB1F6DA22700F82BBF /* Handlebars_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8E1F6DA22700F82BBF /* Handlebars_Realm.swift */; };
-		0E849AAC1F6DA22700F82BBF /* Headset_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A8F1F6DA22700F82BBF /* Headset_Realm.swift */; };
-		0E849AAD1F6DA22700F82BBF /* Hub_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A901F6DA22700F82BBF /* Hub_Realm.swift */; };
-		0E849AAE1F6DA22700F82BBF /* IntObject_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A911F6DA22700F82BBF /* IntObject_Realm.swift */; };
-		0E849AAF1F6DA22700F82BBF /* Measurement_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A921F6DA22700F82BBF /* Measurement_Realm.swift */; };
-		0E849AB01F6DA22700F82BBF /* Pedals_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A931F6DA22700F82BBF /* Pedals_Realm.swift */; };
-		0E849AB11F6DA22700F82BBF /* Position_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A941F6DA22700F82BBF /* Position_Realm.swift */; };
-		0E849AB21F6DA22800F82BBF /* Product_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A951F6DA22700F82BBF /* Product_Realm.swift */; };
-		0E849AB31F6DA22800F82BBF /* Rim_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A961F6DA22700F82BBF /* Rim_Realm.swift */; };
-		0E849AB41F6DA22800F82BBF /* Saddle_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A971F6DA22700F82BBF /* Saddle_Realm.swift */; };
-		0E849AB51F6DA22800F82BBF /* SeatPost_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A981F6DA22700F82BBF /* SeatPost_Realm.swift */; };
-		0E849AB61F6DA22800F82BBF /* Stem_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A991F6DA22700F82BBF /* Stem_Realm.swift */; };
-		0E849AB71F6DA22800F82BBF /* Tire_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A9A1F6DA22700F82BBF /* Tire_Realm.swift */; };
-		0E849AB81F6DA22800F82BBF /* Tube_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A9B1F6DA22700F82BBF /* Tube_Realm.swift */; };
-		0E849AB91F6DA22800F82BBF /* Wheel_Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E849A9C1F6DA22700F82BBF /* Wheel_Realm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +56,31 @@
 /* Begin PBXFileReference section */
 		0E5618A51F892BE00052C182 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0E5618A71F892C2A0052C182 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
+		0E5618B21F8930FA0052C182 /* Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
+		0E5618B41F8931900052C182 /* Rim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rim.swift; sourceTree = "<group>"; };
+		0E5618B61F8931E30052C182 /* Tire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tire.swift; sourceTree = "<group>"; };
+		0E5618B81F8931FF0052C182 /* Tube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tube.swift; sourceTree = "<group>"; };
+		0E5618BA1F89322D0052C182 /* BottomBracket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBracket.swift; sourceTree = "<group>"; };
+		0E5618BC1F89325E0052C182 /* Chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		0E5618C01F8932B80052C182 /* Chainrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chainrings.swift; sourceTree = "<group>"; };
+		0E5618C21F8933670052C182 /* Cogs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cogs.swift; sourceTree = "<group>"; };
+		0E5618C41F8933900052C182 /* Cranks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cranks.swift; sourceTree = "<group>"; };
+		0E5618C61F8935300052C182 /* Derailleur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Derailleur.swift; sourceTree = "<group>"; };
+		0E5618C81F89359A0052C182 /* Pedals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedals.swift; sourceTree = "<group>"; };
+		0E5618CA1F8935DB0052C182 /* Fork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fork.swift; sourceTree = "<group>"; };
+		0E5618CC1F8936420052C182 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		0E5618CE1F8936770052C182 /* GearShifter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearShifter.swift; sourceTree = "<group>"; };
+		0E5618D01F8936A30052C182 /* Handlebars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handlebars.swift; sourceTree = "<group>"; };
+		0E5618D21F8937070052C182 /* Headset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headset.swift; sourceTree = "<group>"; };
+		0E5618D41F89372C0052C182 /* Saddle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Saddle.swift; sourceTree = "<group>"; };
+		0E5618D61F89373F0052C182 /* SeatPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatPost.swift; sourceTree = "<group>"; };
+		0E5618D81F89375B0052C182 /* Stem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stem.swift; sourceTree = "<group>"; };
+		0E5618DA1F8937830052C182 /* Wheel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wheel.swift; sourceTree = "<group>"; };
+		0E5618DC1F8937E50052C182 /* Drivetrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drivetrain.swift; sourceTree = "<group>"; };
+		0E5618DE1F8938160052C182 /* Brake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brake.swift; sourceTree = "<group>"; };
+		0E5618E01F89384A0052C182 /* BrakeLever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakeLever.swift; sourceTree = "<group>"; };
+		0E5618E21F89388A0052C182 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
+		0E5618E41F8940B70052C182 /* BikeShedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShedTests.swift; sourceTree = "<group>"; };
 		0E84996D1F6D9AA600F82BBF /* BikeShed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeShed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8499701F6D9AA600F82BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8499721F6D9AA600F82BBF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -71,39 +90,8 @@
 		0E84997C1F6D9AA600F82BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E84997E1F6D9AA600F82BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E8499831F6D9AA600F82BBF /* BikeShedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeShedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E8499871F6D9AA600F82BBF /* BikeShedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShedTests.swift; sourceTree = "<group>"; };
 		0E8499891F6D9AA600F82BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E849A7B1F6DA18F00F82BBF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		0E849A7C1F6DA18F00F82BBF /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		0E849A801F6DA22700F82BBF /* Bike_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bike_Realm.swift; sourceTree = "<group>"; };
-		0E849A811F6DA22700F82BBF /* BottomBracket_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomBracket_Realm.swift; sourceTree = "<group>"; };
-		0E849A821F6DA22700F82BBF /* Brake_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Brake_Realm.swift; sourceTree = "<group>"; };
-		0E849A831F6DA22700F82BBF /* BrakeLever_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrakeLever_Realm.swift; sourceTree = "<group>"; };
-		0E849A841F6DA22700F82BBF /* Chain_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain_Realm.swift; sourceTree = "<group>"; };
-		0E849A851F6DA22700F82BBF /* ChainRings_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainRings_Realm.swift; sourceTree = "<group>"; };
-		0E849A861F6DA22700F82BBF /* Cogs_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cogs_Realm.swift; sourceTree = "<group>"; };
-		0E849A871F6DA22700F82BBF /* Cranks_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cranks_Realm.swift; sourceTree = "<group>"; };
-		0E849A881F6DA22700F82BBF /* Derailleur_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Derailleur_Realm.swift; sourceTree = "<group>"; };
-		0E849A891F6DA22700F82BBF /* Drivetrain_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Drivetrain_Realm.swift; sourceTree = "<group>"; };
 		0E849A8A1F6DA22700F82BBF /* Enumerations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enumerations.swift; sourceTree = "<group>"; };
-		0E849A8B1F6DA22700F82BBF /* Fork_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fork_Realm.swift; sourceTree = "<group>"; };
-		0E849A8C1F6DA22700F82BBF /* Frame_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame_Realm.swift; sourceTree = "<group>"; };
-		0E849A8D1F6DA22700F82BBF /* GearShifter_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearShifter_Realm.swift; sourceTree = "<group>"; };
-		0E849A8E1F6DA22700F82BBF /* Handlebars_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Handlebars_Realm.swift; sourceTree = "<group>"; };
-		0E849A8F1F6DA22700F82BBF /* Headset_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Headset_Realm.swift; sourceTree = "<group>"; };
-		0E849A901F6DA22700F82BBF /* Hub_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hub_Realm.swift; sourceTree = "<group>"; };
-		0E849A911F6DA22700F82BBF /* IntObject_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntObject_Realm.swift; sourceTree = "<group>"; };
-		0E849A921F6DA22700F82BBF /* Measurement_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurement_Realm.swift; sourceTree = "<group>"; };
-		0E849A931F6DA22700F82BBF /* Pedals_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedals_Realm.swift; sourceTree = "<group>"; };
-		0E849A941F6DA22700F82BBF /* Position_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position_Realm.swift; sourceTree = "<group>"; };
-		0E849A951F6DA22700F82BBF /* Product_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product_Realm.swift; sourceTree = "<group>"; };
-		0E849A961F6DA22700F82BBF /* Rim_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rim_Realm.swift; sourceTree = "<group>"; };
-		0E849A971F6DA22700F82BBF /* Saddle_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Saddle_Realm.swift; sourceTree = "<group>"; };
-		0E849A981F6DA22700F82BBF /* SeatPost_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatPost_Realm.swift; sourceTree = "<group>"; };
-		0E849A991F6DA22700F82BBF /* Stem_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stem_Realm.swift; sourceTree = "<group>"; };
-		0E849A9A1F6DA22700F82BBF /* Tire_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tire_Realm.swift; sourceTree = "<group>"; };
-		0E849A9B1F6DA22700F82BBF /* Tube_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tube_Realm.swift; sourceTree = "<group>"; };
-		0E849A9C1F6DA22700F82BBF /* Wheel_Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheel_Realm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E849A7D1F6DA18F00F82BBF /* Realm.framework in Frameworks */,
-				0E849A7E1F6DA18F00F82BBF /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,61 +112,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E5618AA1F892E800052C182 /* DeprecatedFiles */ = {
+		0E5618AE1F892FEE0052C182 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				0E5618AB1F892EA40052C182 /* Components */,
-				0E849A911F6DA22700F82BBF /* IntObject_Realm.swift */,
-				0E849A921F6DA22700F82BBF /* Measurement_Realm.swift */,
-				0E849A941F6DA22700F82BBF /* Position_Realm.swift */,
-				0E849A951F6DA22700F82BBF /* Product_Realm.swift */,
-				0E849A801F6DA22700F82BBF /* Bike_Realm.swift */,
+				0E5618AF1F89304D0052C182 /* BikeParts */,
+				0E849A8A1F6DA22700F82BBF /* Enumerations.swift */,
+				0E5618A51F892BE00052C182 /* Product.swift */,
+				0E5618A71F892C2A0052C182 /* Measurement.swift */,
+				0E5618E21F89388A0052C182 /* Bike.swift */,
 			);
-			path = DeprecatedFiles;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		0E5618AB1F892EA40052C182 /* Components */ = {
+		0E5618AF1F89304D0052C182 /* BikeParts */ = {
 			isa = PBXGroup;
 			children = (
-				0E849A821F6DA22700F82BBF /* Brake_Realm.swift */,
-				0E849A831F6DA22700F82BBF /* BrakeLever_Realm.swift */,
-				0E849A891F6DA22700F82BBF /* Drivetrain_Realm.swift */,
-				0E5618AC1F892ECA0052C182 /* DrivetrainParts */,
-				0E849A8B1F6DA22700F82BBF /* Fork_Realm.swift */,
-				0E849A8C1F6DA22700F82BBF /* Frame_Realm.swift */,
-				0E849A8D1F6DA22700F82BBF /* GearShifter_Realm.swift */,
-				0E849A8E1F6DA22700F82BBF /* Handlebars_Realm.swift */,
-				0E849A8F1F6DA22700F82BBF /* Headset_Realm.swift */,
-				0E849A971F6DA22700F82BBF /* Saddle_Realm.swift */,
-				0E849A981F6DA22700F82BBF /* SeatPost_Realm.swift */,
-				0E849A991F6DA22700F82BBF /* Stem_Realm.swift */,
-				0E849A9C1F6DA22700F82BBF /* Wheel_Realm.swift */,
-				0E5618AD1F892EFE0052C182 /* WheelParts */,
+				0E5618B11F89306E0052C182 /* WheelParts */,
+				0E5618B01F8930680052C182 /* DrivetrainParts */,
+				0E5618CA1F8935DB0052C182 /* Fork.swift */,
+				0E5618CC1F8936420052C182 /* Frame.swift */,
+				0E5618CE1F8936770052C182 /* GearShifter.swift */,
+				0E5618D01F8936A30052C182 /* Handlebars.swift */,
+				0E5618D21F8937070052C182 /* Headset.swift */,
+				0E5618D41F89372C0052C182 /* Saddle.swift */,
+				0E5618D61F89373F0052C182 /* SeatPost.swift */,
+				0E5618D81F89375B0052C182 /* Stem.swift */,
+				0E5618DA1F8937830052C182 /* Wheel.swift */,
+				0E5618DC1F8937E50052C182 /* Drivetrain.swift */,
+				0E5618DE1F8938160052C182 /* Brake.swift */,
+				0E5618E01F89384A0052C182 /* BrakeLever.swift */,
 			);
-			path = Components;
+			path = BikeParts;
 			sourceTree = "<group>";
 		};
-		0E5618AC1F892ECA0052C182 /* DrivetrainParts */ = {
+		0E5618B01F8930680052C182 /* DrivetrainParts */ = {
 			isa = PBXGroup;
 			children = (
-				0E849A811F6DA22700F82BBF /* BottomBracket_Realm.swift */,
-				0E849A841F6DA22700F82BBF /* Chain_Realm.swift */,
-				0E849A851F6DA22700F82BBF /* ChainRings_Realm.swift */,
-				0E849A861F6DA22700F82BBF /* Cogs_Realm.swift */,
-				0E849A871F6DA22700F82BBF /* Cranks_Realm.swift */,
-				0E849A881F6DA22700F82BBF /* Derailleur_Realm.swift */,
-				0E849A931F6DA22700F82BBF /* Pedals_Realm.swift */,
+				0E5618BA1F89322D0052C182 /* BottomBracket.swift */,
+				0E5618BC1F89325E0052C182 /* Chain.swift */,
+				0E5618C01F8932B80052C182 /* Chainrings.swift */,
+				0E5618C21F8933670052C182 /* Cogs.swift */,
+				0E5618C41F8933900052C182 /* Cranks.swift */,
+				0E5618C61F8935300052C182 /* Derailleur.swift */,
+				0E5618C81F89359A0052C182 /* Pedals.swift */,
 			);
 			path = DrivetrainParts;
 			sourceTree = "<group>";
 		};
-		0E5618AD1F892EFE0052C182 /* WheelParts */ = {
+		0E5618B11F89306E0052C182 /* WheelParts */ = {
 			isa = PBXGroup;
 			children = (
-				0E849A901F6DA22700F82BBF /* Hub_Realm.swift */,
-				0E849A961F6DA22700F82BBF /* Rim_Realm.swift */,
-				0E849A9A1F6DA22700F82BBF /* Tire_Realm.swift */,
-				0E849A9B1F6DA22700F82BBF /* Tube_Realm.swift */,
+				0E5618B21F8930FA0052C182 /* Hub.swift */,
+				0E5618B41F8931900052C182 /* Rim.swift */,
+				0E5618B61F8931E30052C182 /* Tire.swift */,
+				0E5618B81F8931FF0052C182 /* Tube.swift */,
 			);
 			path = WheelParts;
 			sourceTree = "<group>";
@@ -191,7 +176,6 @@
 				0E84996F1F6D9AA600F82BBF /* BikeShed */,
 				0E8499861F6D9AA600F82BBF /* BikeShedTests */,
 				0E84996E1F6D9AA600F82BBF /* Products */,
-				0E849A7A1F6DA18D00F82BBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -207,7 +191,7 @@
 		0E84996F1F6D9AA600F82BBF /* BikeShed */ = {
 			isa = PBXGroup;
 			children = (
-				0E5618AA1F892E800052C182 /* DeprecatedFiles */,
+				0E5618AE1F892FEE0052C182 /* Models */,
 				0E8499701F6D9AA600F82BBF /* AppDelegate.swift */,
 				0E8499721F6D9AA600F82BBF /* FirstViewController.swift */,
 				0E8499741F6D9AA600F82BBF /* SecondViewController.swift */,
@@ -215,9 +199,6 @@
 				0E8499791F6D9AA600F82BBF /* Assets.xcassets */,
 				0E84997B1F6D9AA600F82BBF /* LaunchScreen.storyboard */,
 				0E84997E1F6D9AA600F82BBF /* Info.plist */,
-				0E849A8A1F6DA22700F82BBF /* Enumerations.swift */,
-				0E5618A51F892BE00052C182 /* Product.swift */,
-				0E5618A71F892C2A0052C182 /* Measurement.swift */,
 			);
 			path = BikeShed;
 			sourceTree = "<group>";
@@ -225,19 +206,10 @@
 		0E8499861F6D9AA600F82BBF /* BikeShedTests */ = {
 			isa = PBXGroup;
 			children = (
-				0E8499871F6D9AA600F82BBF /* BikeShedTests.swift */,
 				0E8499891F6D9AA600F82BBF /* Info.plist */,
+				0E5618E41F8940B70052C182 /* BikeShedTests.swift */,
 			);
 			path = BikeShedTests;
-			sourceTree = "<group>";
-		};
-		0E849A7A1F6DA18D00F82BBF /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0E849A7B1F6DA18F00F82BBF /* Realm.framework */,
-				0E849A7C1F6DA18F00F82BBF /* RealmSwift.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,17 +258,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Andrew D Lee";
 				TargetAttributes = {
 					0E84996C1F6D9AA600F82BBF = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = D4VM9U8H48;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					0E8499821F6D9AA600F82BBF = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = D4VM9U8H48;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 0E84996C1F6D9AA600F82BBF;
 					};
@@ -348,14 +322,12 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/usr/local/bin/carthage copy-frameworks";
+			shellScript = "";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -364,40 +336,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E849AA01F6DA22700F82BBF /* BrakeLever_Realm.swift in Sources */,
-				0E849AA91F6DA22700F82BBF /* Frame_Realm.swift in Sources */,
-				0E849AA11F6DA22700F82BBF /* Chain_Realm.swift in Sources */,
-				0E849AA81F6DA22700F82BBF /* Fork_Realm.swift in Sources */,
-				0E849AA21F6DA22700F82BBF /* ChainRings_Realm.swift in Sources */,
+				0E5618D31F8937070052C182 /* Headset.swift in Sources */,
+				0E5618B31F8930FA0052C182 /* Hub.swift in Sources */,
+				0E5618B71F8931E30052C182 /* Tire.swift in Sources */,
 				0E5618A61F892BE00052C182 /* Product.swift in Sources */,
-				0E849AAC1F6DA22700F82BBF /* Headset_Realm.swift in Sources */,
-				0E849AB61F6DA22800F82BBF /* Stem_Realm.swift in Sources */,
-				0E849AA31F6DA22700F82BBF /* Cogs_Realm.swift in Sources */,
-				0E849AB21F6DA22800F82BBF /* Product_Realm.swift in Sources */,
-				0E849A9E1F6DA22700F82BBF /* BottomBracket_Realm.swift in Sources */,
-				0E849AA41F6DA22700F82BBF /* Cranks_Realm.swift in Sources */,
-				0E849AB71F6DA22800F82BBF /* Tire_Realm.swift in Sources */,
-				0E849A9F1F6DA22700F82BBF /* Brake_Realm.swift in Sources */,
+				0E5618CB1F8935DB0052C182 /* Fork.swift in Sources */,
+				0E5618B51F8931900052C182 /* Rim.swift in Sources */,
+				0E5618D91F89375B0052C182 /* Stem.swift in Sources */,
+				0E5618B91F8931FF0052C182 /* Tube.swift in Sources */,
+				0E5618CF1F8936770052C182 /* GearShifter.swift in Sources */,
+				0E5618E11F89384A0052C182 /* BrakeLever.swift in Sources */,
+				0E5618E31F89388A0052C182 /* Bike.swift in Sources */,
+				0E5618D11F8936A30052C182 /* Handlebars.swift in Sources */,
+				0E5618D71F89373F0052C182 /* SeatPost.swift in Sources */,
 				0E5618A81F892C2A0052C182 /* Measurement.swift in Sources */,
 				0E849AA71F6DA22700F82BBF /* Enumerations.swift in Sources */,
-				0E849A9D1F6DA22700F82BBF /* Bike_Realm.swift in Sources */,
-				0E849AAE1F6DA22700F82BBF /* IntObject_Realm.swift in Sources */,
-				0E849AB31F6DA22800F82BBF /* Rim_Realm.swift in Sources */,
-				0E849AA51F6DA22700F82BBF /* Derailleur_Realm.swift in Sources */,
-				0E849AB11F6DA22700F82BBF /* Position_Realm.swift in Sources */,
-				0E849AA61F6DA22700F82BBF /* Drivetrain_Realm.swift in Sources */,
-				0E849AAA1F6DA22700F82BBF /* GearShifter_Realm.swift in Sources */,
-				0E849AAF1F6DA22700F82BBF /* Measurement_Realm.swift in Sources */,
-				0E849AB51F6DA22800F82BBF /* SeatPost_Realm.swift in Sources */,
-				0E849AB41F6DA22800F82BBF /* Saddle_Realm.swift in Sources */,
-				0E849AAD1F6DA22700F82BBF /* Hub_Realm.swift in Sources */,
+				0E5618C31F8933670052C182 /* Cogs.swift in Sources */,
+				0E5618C51F8933900052C182 /* Cranks.swift in Sources */,
+				0E5618BB1F89322D0052C182 /* BottomBracket.swift in Sources */,
+				0E5618BD1F89325E0052C182 /* Chain.swift in Sources */,
+				0E5618DF1F8938160052C182 /* Brake.swift in Sources */,
+				0E5618C91F89359A0052C182 /* Pedals.swift in Sources */,
+				0E5618C11F8932B80052C182 /* Chainrings.swift in Sources */,
+				0E5618C71F8935300052C182 /* Derailleur.swift in Sources */,
+				0E5618DD1F8937E50052C182 /* Drivetrain.swift in Sources */,
 				0E8499751F6D9AA600F82BBF /* SecondViewController.swift in Sources */,
-				0E849AB01F6DA22700F82BBF /* Pedals_Realm.swift in Sources */,
-				0E849AB91F6DA22800F82BBF /* Wheel_Realm.swift in Sources */,
-				0E849AAB1F6DA22700F82BBF /* Handlebars_Realm.swift in Sources */,
-				0E849AB81F6DA22800F82BBF /* Tube_Realm.swift in Sources */,
+				0E5618DB1F8937830052C182 /* Wheel.swift in Sources */,
+				0E5618CD1F8936420052C182 /* Frame.swift in Sources */,
 				0E8499711F6D9AA600F82BBF /* AppDelegate.swift in Sources */,
 				0E8499731F6D9AA600F82BBF /* FirstViewController.swift in Sources */,
+				0E5618D51F89372C0052C182 /* Saddle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +373,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8499881F6D9AA600F82BBF /* BikeShedTests.swift in Sources */,
+				0E5618E51F8940B70052C182 /* BikeShedTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +417,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -457,7 +427,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -499,7 +473,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -507,7 +483,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -537,15 +517,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = BikeShed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -554,15 +531,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = BikeShed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -571,12 +545,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
 				INFOPLIST_FILE = BikeShedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShed.app/BikeShed";
 			};
 			name = Debug;
@@ -586,12 +563,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
 				INFOPLIST_FILE = BikeShedTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShedTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BikeShed.app/BikeShed";
 			};
 			name = Release;

@@ -2,12 +2,11 @@
 //  BikeShedTests.swift
 //  BikeShedTests
 //
-//  Created by Andrew D Lee on 9/16/17.
+//  Created by Andrew D Lee on 10/7/17.
 //  Copyright © 2017 Andrew D Lee. All rights reserved.
 //
 
 import XCTest
-@testable import BikeShed
 
 class BikeShedTests: XCTestCase {
     
