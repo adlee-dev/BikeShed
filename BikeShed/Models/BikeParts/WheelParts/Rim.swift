@@ -11,6 +11,6 @@ import Foundation
 class Rim: Product {
     var diameter: Measurement?
     var width: Measurement?
-    var spokeCount: Int = 0
+    var spokeCount: Int?
     var tireType = TireType.none
 }

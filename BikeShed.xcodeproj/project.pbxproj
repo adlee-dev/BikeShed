@@ -34,6 +34,7 @@
 		0E5618E11F89384A0052C182 /* BrakeLever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E01F89384A0052C182 /* BrakeLever.swift */; };
 		0E5618E31F89388A0052C182 /* Bike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E21F89388A0052C182 /* Bike.swift */; };
 		0E5618E51F8940B70052C182 /* BikeShedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618E41F8940B70052C182 /* BikeShedTests.swift */; };
+		0E57073E1F894C1400B31F74 /* Storable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E57073D1F894C1400B31F74 /* Storable.swift */; };
 		0E8499711F6D9AA600F82BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499701F6D9AA600F82BBF /* AppDelegate.swift */; };
 		0E8499731F6D9AA600F82BBF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499721F6D9AA600F82BBF /* FirstViewController.swift */; };
 		0E8499751F6D9AA600F82BBF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8499741F6D9AA600F82BBF /* SecondViewController.swift */; };
@@ -81,6 +82,7 @@
 		0E5618E01F89384A0052C182 /* BrakeLever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrakeLever.swift; sourceTree = "<group>"; };
 		0E5618E21F89388A0052C182 /* Bike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike.swift; sourceTree = "<group>"; };
 		0E5618E41F8940B70052C182 /* BikeShedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeShedTests.swift; sourceTree = "<group>"; };
+		0E57073D1F894C1400B31F74 /* Storable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storable.swift; sourceTree = "<group>"; };
 		0E84996D1F6D9AA600F82BBF /* BikeShed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeShed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E8499701F6D9AA600F82BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E8499721F6D9AA600F82BBF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 				0E8499791F6D9AA600F82BBF /* Assets.xcassets */,
 				0E84997B1F6D9AA600F82BBF /* LaunchScreen.storyboard */,
 				0E84997E1F6D9AA600F82BBF /* Info.plist */,
+				0E57073D1F894C1400B31F74 /* Storable.swift */,
 			);
 			path = BikeShed;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				0E5618C51F8933900052C182 /* Cranks.swift in Sources */,
 				0E5618BB1F89322D0052C182 /* BottomBracket.swift in Sources */,
 				0E5618BD1F89325E0052C182 /* Chain.swift in Sources */,
+				0E57073E1F894C1400B31F74 /* Storable.swift in Sources */,
 				0E5618DF1F8938160052C182 /* Brake.swift in Sources */,
 				0E5618C91F89359A0052C182 /* Pedals.swift in Sources */,
 				0E5618C11F8932B80052C182 /* Chainrings.swift in Sources */,

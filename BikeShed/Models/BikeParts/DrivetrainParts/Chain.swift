@@ -9,5 +9,5 @@
 import Foundation
 
 class Chain: Product {
-    var linkCount: Int = 0
+    var linkCount: Int?
 }

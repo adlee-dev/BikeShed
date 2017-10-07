@@ -9,8 +9,8 @@
 import Foundation
 
 class Derailleur: Product {
-    var maxSize: Int = 0
-    var minSize: Int = 0
-    var speed: Int = 0
+    var maxSize: Int?
+    var minSize: Int?
+    var speed: Int?
     var position: PositionType = .none
 }

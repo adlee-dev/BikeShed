@@ -16,5 +16,5 @@ enum TireType: Int {
 }
 
 class Tire: Product {
-    var tireType: TireType?
+    var tireType: TireType = .none
 }

@@ -15,9 +15,9 @@ enum RingShape: Int {
 }
 
 class Chainrings: Product {
-    var boltHoleCount: Int = 0
+    var boltHoleCount: Int?
     var boltHoleDiameter: Measurement?
-    var ringCount: Int = 0
+    var ringCount: Int?
     var ringWidth: Measurement?
     var sizes: [Int]?
     var ringShape: RingShape?
