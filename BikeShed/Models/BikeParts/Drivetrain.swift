@@ -9,6 +9,10 @@
 import Foundation
 
 class Drivetrain {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var bottomBracket: BottomBracket?
     var pedals: Pedals?
     var cranks: Cranks?

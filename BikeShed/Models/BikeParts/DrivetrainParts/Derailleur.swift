@@ -9,6 +9,10 @@
 import Foundation
 
 class Derailleur: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var maxSize: Int?
     var minSize: Int?
     var speed: Int?

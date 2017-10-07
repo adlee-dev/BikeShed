@@ -9,6 +9,10 @@
 import Foundation
 
 class Cogs: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var cogCount: Int?
     var sizes: [Int]?
 }

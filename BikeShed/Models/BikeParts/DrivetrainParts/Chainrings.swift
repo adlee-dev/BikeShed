@@ -15,6 +15,10 @@ enum RingShape: Int {
 }
 
 class Chainrings: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var boltHoleCount: Int?
     var boltHoleDiameter: Measurement?
     var ringCount: Int?

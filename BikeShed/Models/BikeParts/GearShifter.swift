@@ -18,6 +18,10 @@ enum GearShifterType: Int {
 }
 
 class GearShifter: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var isIndexed = false
     var position: PositionType = .none
     var gearShifterType: GearShifterType = .none

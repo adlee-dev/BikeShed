@@ -21,6 +21,10 @@ enum ForkType: Int {
 }
 
 class Fork: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var tubeLength: Measurement?
     var tubeDiameter: Measurement?
     var width: Measurement?

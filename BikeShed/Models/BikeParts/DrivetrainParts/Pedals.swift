@@ -16,5 +16,9 @@ enum PedalType: Int {
 }
 
 class Pedals: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var pedalType: PedalType = .none
 }

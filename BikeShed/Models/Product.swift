@@ -11,7 +11,7 @@ import Foundation
 class Product {
     var brand: String?
     var productName: String?
-    var productID: String?
+    var productId: String?
     var weight: Measurement?
     var color: Int?
     var material: MaterialType?

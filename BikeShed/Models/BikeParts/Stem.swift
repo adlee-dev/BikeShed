@@ -15,6 +15,10 @@ enum StemType: Int {
 }
 
 class Stem: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var length: Measurement?
     var angle: Measurement?
     var tubeDiameter: Measurement?

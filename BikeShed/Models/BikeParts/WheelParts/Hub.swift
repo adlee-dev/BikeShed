@@ -9,5 +9,7 @@
 import Foundation
 
 class Hub: Product {
-
+    var id: Int?
+    var wheelId: Int?
+    var added: Date?
 }

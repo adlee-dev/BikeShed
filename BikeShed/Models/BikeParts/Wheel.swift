@@ -9,6 +9,10 @@
 import Foundation
 
 class Wheel {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var rim: Rim?
     var tube: Tube?
     var tire: Tire?

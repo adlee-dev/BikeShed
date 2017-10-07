@@ -9,6 +9,10 @@
 import Foundation
 
 class SeatPost: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var length: Measurement?
     var diameter: Measurement?
 }

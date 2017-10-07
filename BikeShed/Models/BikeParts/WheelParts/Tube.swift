@@ -9,5 +9,7 @@
 import Foundation
 
 class Tube: Product {
-    
+    var id: Int?
+    var wheelId: Int?
+    var added: Date?
 }

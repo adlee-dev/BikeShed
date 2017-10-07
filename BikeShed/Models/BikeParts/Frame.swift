@@ -18,6 +18,10 @@ enum GeometryType: Int {
 }
 
 class Frame: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var bottomBracketShellDiameter: Measurement?
     var bottomBracketShellWidth: Measurement?
     var headTubeDiameter: Measurement?

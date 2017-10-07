@@ -9,5 +9,9 @@
 import Foundation
 
 class BrakeLever: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var position: PositionType = .none
 }

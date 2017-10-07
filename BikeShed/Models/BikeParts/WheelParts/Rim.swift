@@ -9,6 +9,10 @@
 import Foundation
 
 class Rim: Product {
+    var id: Int?
+    var wheelId: Int?
+    var added: Date?
+    
     var diameter: Measurement?
     var width: Measurement?
     var spokeCount: Int?

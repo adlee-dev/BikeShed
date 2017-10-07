@@ -20,6 +20,10 @@ enum BrakeType: Int {
 }
 
 class Brake: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var position: PositionType = .none
     var brakeType: BrakeType = .none
 }

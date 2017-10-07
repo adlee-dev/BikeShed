@@ -9,6 +9,10 @@
 import Foundation
 
 class Bike {
+    var id: Int?
+    var nickname: String?
+    var added: Date?
+    
     var frame: Frame?
     var fork: Fork?
     var wheels: [Wheel]?

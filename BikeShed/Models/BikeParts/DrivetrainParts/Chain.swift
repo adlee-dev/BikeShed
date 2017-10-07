@@ -9,5 +9,9 @@
 import Foundation
 
 class Chain: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var linkCount: Int?
 }

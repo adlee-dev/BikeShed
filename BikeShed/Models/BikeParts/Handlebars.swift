@@ -21,6 +21,10 @@ enum HandlebarsType: Int {
 }
 
 class Handlebars: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var diameter: Measurement?
     var width: Measurement?
     var handlebarsType: HandlebarsType = .none

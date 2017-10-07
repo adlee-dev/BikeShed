@@ -9,5 +9,7 @@
 import Foundation
 
 class Saddle: Product {
-    
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
 }

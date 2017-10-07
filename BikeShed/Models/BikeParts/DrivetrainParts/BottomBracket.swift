@@ -9,6 +9,10 @@
 import Foundation
 
 class BottomBracket: Product {
+    var id: Int?
+    var drivetrainId: Int?
+    var added: Date?
+    
     var diameter: Measurement?
     var length: Measurement?
 }

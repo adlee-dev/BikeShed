@@ -15,6 +15,10 @@ enum HeadsetType: Int {
 }
 
 class Headset: Product {
+    var id: Int?
+    var bikeId: Int?
+    var added: Date?
+    
     var diameter: Measurement?
     var headsetType = HeadsetType.none
 }
