@@ -9,8 +9,8 @@
 import Foundation
 
 protocol Storable {
-    associatedtype T
-    
+    associatedtype T: Equatable
+
     func fetchAll() -> [T]?
     func fetch(id: Int) -> T?
     func insert(item: T) -> Int
