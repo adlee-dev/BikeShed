@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E28738B1F89B85100DE340C /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28738A1F89B85100DE340C /* SQLite.framework */; };
+		0E28738F1F8A3A1000DE340C /* Bike_SQLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E28738E1F8A3A1000DE340C /* Bike_SQLite.swift */; };
+		0E2873911F8A3D6C00DE340C /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E2873901F8A3D6C00DE340C /* DataStore.swift */; };
 		0E5618A61F892BE00052C182 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A51F892BE00052C182 /* Product.swift */; };
 		0E5618A81F892C2A0052C182 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A71F892C2A0052C182 /* Measurement.swift */; };
 		0E5618B31F8930FA0052C182 /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B21F8930FA0052C182 /* Hub.swift */; };
@@ -57,6 +59,8 @@
 
 /* Begin PBXFileReference section */
 		0E28738A1F89B85100DE340C /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
+		0E28738E1F8A3A1000DE340C /* Bike_SQLite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bike_SQLite.swift; sourceTree = "<group>"; };
+		0E2873901F8A3D6C00DE340C /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		0E5618A51F892BE00052C182 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0E5618A71F892C2A0052C182 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
 		0E5618B21F8930FA0052C182 /* Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
@@ -117,11 +121,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0E2873881F89B49100DE340C /* DattAccess */ = {
+		0E2873881F89B49100DE340C /* DataAccess */ = {
 			isa = PBXGroup;
 			children = (
+				0E28738E1F8A3A1000DE340C /* Bike_SQLite.swift */,
 			);
-			path = DattAccess;
+			path = DataAccess;
 			sourceTree = "<group>";
 		};
 		0E2873891F89B85100DE340C /* Frameworks */ = {
@@ -130,6 +135,14 @@
 				0E28738A1F89B85100DE340C /* SQLite.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E2873921F8A3D7400DE340C /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				0E2873901F8A3D6C00DE340C /* DataStore.swift */,
+			);
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 		0E5618AE1F892FEE0052C182 /* Models */ = {
@@ -212,7 +225,8 @@
 		0E84996F1F6D9AA600F82BBF /* BikeShed */ = {
 			isa = PBXGroup;
 			children = (
-				0E2873881F89B49100DE340C /* DattAccess */,
+				0E2873921F8A3D7400DE340C /* DataStore */,
+				0E2873881F89B49100DE340C /* DataAccess */,
 				0E5618AE1F892FEE0052C182 /* Models */,
 				0E8499701F6D9AA600F82BBF /* AppDelegate.swift */,
 				0E8499721F6D9AA600F82BBF /* FirstViewController.swift */,
@@ -365,6 +379,7 @@
 				0E5618B31F8930FA0052C182 /* Hub.swift in Sources */,
 				0E5618B71F8931E30052C182 /* Tire.swift in Sources */,
 				0E5618A61F892BE00052C182 /* Product.swift in Sources */,
+				0E2873911F8A3D6C00DE340C /* DataStore.swift in Sources */,
 				0E5618CB1F8935DB0052C182 /* Fork.swift in Sources */,
 				0E5618B51F8931900052C182 /* Rim.swift in Sources */,
 				0E5618D91F89375B0052C182 /* Stem.swift in Sources */,
@@ -385,6 +400,7 @@
 				0E5618C91F89359A0052C182 /* Pedals.swift in Sources */,
 				0E5618C11F8932B80052C182 /* Chainrings.swift in Sources */,
 				0E5618C71F8935300052C182 /* Derailleur.swift in Sources */,
+				0E28738F1F8A3A1000DE340C /* Bike_SQLite.swift in Sources */,
 				0E5618DD1F8937E50052C182 /* Drivetrain.swift in Sources */,
 				0E8499751F6D9AA600F82BBF /* SecondViewController.swift in Sources */,
 				0E5618DB1F8937830052C182 /* Wheel.swift in Sources */,

@@ -21,3 +21,11 @@ struct Measurement {
     var unitType: UnitType
     var measurement: Double
 }
+
+extension Measurement : Equatable {
+    static func ==(lhs: Measurement, rhs: Measurement) -> Bool {
+        return lhs.measurement == rhs.measurement && lhs.unitType == rhs.unitType
+    }
+    
+    
+}
