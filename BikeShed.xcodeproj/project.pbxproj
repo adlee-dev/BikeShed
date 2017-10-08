@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E28738B1F89B85100DE340C /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E28738A1F89B85100DE340C /* SQLite.framework */; };
 		0E5618A61F892BE00052C182 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A51F892BE00052C182 /* Product.swift */; };
 		0E5618A81F892C2A0052C182 /* Measurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618A71F892C2A0052C182 /* Measurement.swift */; };
 		0E5618B31F8930FA0052C182 /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5618B21F8930FA0052C182 /* Hub.swift */; };
@@ -55,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E28738A1F89B85100DE340C /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = Carthage/Build/iOS/SQLite.framework; sourceTree = "<group>"; };
 		0E5618A51F892BE00052C182 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		0E5618A71F892C2A0052C182 /* Measurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measurement.swift; sourceTree = "<group>"; };
 		0E5618B21F8930FA0052C182 /* Hub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E28738B1F89B85100DE340C /* SQLite.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +117,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E2873881F89B49100DE340C /* DattAccess */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DattAccess;
+			sourceTree = "<group>";
+		};
+		0E2873891F89B85100DE340C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E28738A1F89B85100DE340C /* SQLite.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0E5618AE1F892FEE0052C182 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +196,7 @@
 				0E84996F1F6D9AA600F82BBF /* BikeShed */,
 				0E8499861F6D9AA600F82BBF /* BikeShedTests */,
 				0E84996E1F6D9AA600F82BBF /* Products */,
+				0E2873891F89B85100DE340C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +212,7 @@
 		0E84996F1F6D9AA600F82BBF /* BikeShed */ = {
 			isa = PBXGroup;
 			children = (
+				0E2873881F89B49100DE340C /* DattAccess */,
 				0E5618AE1F892FEE0052C182 /* Models */,
 				0E8499701F6D9AA600F82BBF /* AppDelegate.swift */,
 				0E8499721F6D9AA600F82BBF /* FirstViewController.swift */,
@@ -325,12 +345,14 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SQLite.framework",
 			);
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SQLite.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -521,6 +543,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BikeShed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShed;
@@ -535,6 +561,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D4VM9U8H48;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = BikeShed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adlee.dev.BikeShed;
