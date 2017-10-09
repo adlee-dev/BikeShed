@@ -8,8 +8,16 @@
 
 import Foundation
 
-class Saddle: Product {
+class Saddle {
     var id: Int?
     var bikeId: Int?
     var added: Date?
+    
+    var product: Product?
+}
+
+extension Saddle : Equatable {
+    static func ==(lhs: Saddle, rhs: Saddle) -> Bool {
+        return lhs.product == rhs.product
+    }
 }

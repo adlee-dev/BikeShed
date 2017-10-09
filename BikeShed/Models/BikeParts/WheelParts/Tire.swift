@@ -15,10 +15,17 @@ enum TireType: Int {
     case tubeless
 }
 
-class Tire: Product {
+class Tire {
     var id: Int?
     var wheelId: Int?
     var added: Date?
     
+    var product: Product?
     var tireType: TireType = .none
+}
+
+extension Tire : Equatable {
+    static func ==(lhs: Tire, rhs: Tire) -> Bool {
+        return lhs.product == rhs.product && lhs.tireType == rhs.tireType
+    }
 }

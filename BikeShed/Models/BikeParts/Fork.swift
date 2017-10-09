@@ -20,15 +20,21 @@ enum ForkType: Int {
     case suspension
 }
 
-class Fork: Product {
+class Fork {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var tubeLength: Measurement?
     var tubeDiameter: Measurement?
     var width: Measurement?
     var forkConstruction = ForkConstruction.none
     var forkType = ForkType.none
-    
+}
+
+extension Fork : Equatable {
+    static func ==(lhs: Fork, rhs: Fork) -> Bool {
+        return lhs.product == rhs.product && lhs.tubeLength == rhs.tubeLength && lhs.tubeDiameter == rhs.tubeDiameter && lhs.width == rhs.width && lhs.forkConstruction == rhs.forkConstruction && lhs.forkType == rhs.forkType
+    }
 }

@@ -8,10 +8,17 @@
 
 import Foundation
 
-class BrakeLever: Product {
+class BrakeLever {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var position: PositionType = .none
+}
+
+extension BrakeLever : Equatable {
+    static func ==(lhs: BrakeLever, rhs: BrakeLever) -> Bool {
+        return lhs.product == rhs.product && lhs.position == rhs.position
+    }
 }

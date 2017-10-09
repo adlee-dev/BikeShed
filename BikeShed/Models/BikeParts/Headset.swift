@@ -14,11 +14,18 @@ enum HeadsetType: Int {
     case threadless
 }
 
-class Headset: Product {
+class Headset {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var diameter: Measurement?
     var headsetType = HeadsetType.none
+}
+
+extension Headset : Equatable {
+    static func ==(lhs: Headset, rhs: Headset) -> Bool {
+        return lhs.product == rhs.product && lhs.diameter == rhs.diameter && lhs.headsetType == rhs.headsetType
+    }
 }

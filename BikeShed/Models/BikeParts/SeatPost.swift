@@ -8,11 +8,18 @@
 
 import Foundation
 
-class SeatPost: Product {
+class SeatPost {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var length: Measurement?
     var diameter: Measurement?
+}
+
+extension SeatPost : Equatable {
+    static func ==(lhs: SeatPost, rhs: SeatPost) -> Bool {
+        return lhs.product == rhs.product && lhs.length == rhs.length && lhs.diameter == rhs.diameter
+    }
 }

@@ -19,11 +19,18 @@ enum BrakeType: Int {
     case coaster
 }
 
-class Brake: Product {
+class Brake {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var position: PositionType = .none
     var brakeType: BrakeType = .none
+}
+
+extension Brake : Equatable {
+    static func ==(lhs: Brake, rhs: Brake) -> Bool {
+        return lhs.product == rhs.product && lhs.position == rhs.position && lhs.brakeType == rhs.brakeType
+    }
 }

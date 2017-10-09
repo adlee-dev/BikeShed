@@ -15,10 +15,17 @@ enum PedalType: Int {
     case quill
 }
 
-class Pedals: Product {
+class Pedals {
     var id: Int?
     var drivetrainId: Int?
     var added: Date?
     
+    var product: Product?
     var pedalType: PedalType = .none
+}
+
+extension Pedals : Equatable {
+    static func ==(lhs: Pedals, rhs: Pedals) -> Bool {
+        return lhs.product == rhs.product && lhs.pedalType == rhs.pedalType
+    }
 }

@@ -8,8 +8,16 @@
 
 import Foundation
 
-class Hub: Product {
+class Hub {
     var id: Int?
     var wheelId: Int?
     var added: Date?
+    
+    var product: Product?
+}
+
+extension Hub : Equatable {
+    static func ==(lhs: Hub, rhs: Hub) -> Bool {
+        return lhs.product == rhs.product
+    }
 }

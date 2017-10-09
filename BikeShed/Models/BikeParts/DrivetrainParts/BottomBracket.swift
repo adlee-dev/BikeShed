@@ -8,11 +8,21 @@
 
 import Foundation
 
-class BottomBracket: Product {
+class BottomBracket {
     var id: Int?
     var drivetrainId: Int?
     var added: Date?
     
+    var product: Product?
     var diameter: Measurement?
     var length: Measurement?
 }
+
+extension BottomBracket : Equatable {
+    static func ==(lhs: BottomBracket, rhs: BottomBracket) -> Bool {
+        return lhs.product == rhs.product
+            && lhs.diameter == rhs.diameter
+            && lhs.length == rhs.length
+    }
+}
+

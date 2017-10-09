@@ -21,3 +21,17 @@ class Drivetrain {
     var chain: Chain?
     var derailleurs: [Derailleur]?
 }
+
+extension Drivetrain : Equatable {
+    static func ==(lhs: Drivetrain, rhs: Drivetrain) -> Bool {
+        var derailleurs = false
+        
+        if let lhsDerailleurs = lhs.derailleurs, let rhsDerailleurs = rhs.derailleurs {
+            derailleurs = lhsDerailleurs == rhsDerailleurs
+        } else {
+            derailleurs = lhs.derailleurs == nil && rhs.derailleurs == nil
+        }
+        
+        return lhs.bottomBracket == rhs.bottomBracket && lhs.pedals == rhs.pedals && lhs.cranks == rhs.cranks && lhs.chainrings == rhs.chainrings && lhs.cogs == rhs.cogs && lhs.chain == rhs.chain && derailleurs
+    }
+}

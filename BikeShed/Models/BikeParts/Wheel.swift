@@ -19,3 +19,9 @@ class Wheel {
     var hub: Hub?
     var position: PositionType = .none
 }
+
+extension Wheel : Equatable {
+    static func ==(lhs: Wheel, rhs: Wheel) -> Bool {
+        return lhs.rim == rhs.rim && lhs.tube == rhs.tube && lhs.tire == rhs.tire && lhs.hub == rhs.hub && lhs.position == rhs.position
+    }
+}

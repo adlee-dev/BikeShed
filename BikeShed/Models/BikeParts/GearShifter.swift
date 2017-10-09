@@ -17,12 +17,19 @@ enum GearShifterType: Int {
     case downTube
 }
 
-class GearShifter: Product {
+class GearShifter {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var isIndexed = false
     var position: PositionType = .none
     var gearShifterType: GearShifterType = .none
+}
+
+extension GearShifter : Equatable {
+    static func ==(lhs: GearShifter, rhs: GearShifter) -> Bool {
+        return lhs.product == rhs.product && lhs.isIndexed == rhs.isIndexed && lhs.position == rhs.position && lhs.gearShifterType == rhs.gearShifterType
+    }
 }

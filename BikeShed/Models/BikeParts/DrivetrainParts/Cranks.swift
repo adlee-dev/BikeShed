@@ -8,10 +8,17 @@
 
 import Foundation
 
-class Cranks: Product {
+class Cranks {
     var id: Int?
     var drivetrainId: Int?
     var added: Date?
     
+    var product: Product?
     var length: Measurement?
+}
+
+extension Cranks: Equatable {
+    static func ==(lhs: Cranks, rhs: Cranks) -> Bool {
+        return lhs.product == rhs.product && lhs.length == rhs.length
+    }
 }

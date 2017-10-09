@@ -20,12 +20,19 @@ enum HandlebarsType: Int {
     case bmx
 }
 
-class Handlebars: Product {
+class Handlebars {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var diameter: Measurement?
     var width: Measurement?
     var handlebarsType: HandlebarsType = .none
+}
+
+extension Handlebars : Equatable {
+    static func ==(lhs: Handlebars, rhs: Handlebars) -> Bool {
+        return lhs.product == rhs.product && lhs.diameter == rhs.diameter && lhs.width == rhs.width && lhs.handlebarsType == rhs.handlebarsType
+    }
 }

@@ -8,10 +8,17 @@
 
 import Foundation
 
-class Chain: Product {
+class Chain {
     var id: Int?
     var drivetrainId: Int?
     var added: Date?
     
+    var product: Product?
     var linkCount: Int?
+}
+
+extension Chain : Equatable {
+    static func ==(lhs: Chain, rhs: Chain) -> Bool {
+        return lhs.product == rhs.product && lhs.linkCount == rhs.linkCount
+    }
 }

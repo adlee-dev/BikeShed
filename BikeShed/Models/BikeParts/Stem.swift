@@ -14,14 +14,21 @@ enum StemType: Int {
     case threadless
 }
 
-class Stem: Product {
+class Stem {
     var id: Int?
     var bikeId: Int?
     var added: Date?
     
+    var product: Product?
     var length: Measurement?
     var angle: Measurement?
     var tubeDiameter: Measurement?
     var barDiameter: Measurement?
     var stemType: StemType = .none
+}
+
+extension Stem : Equatable {
+    static func ==(lhs: Stem, rhs: Stem) -> Bool {
+        return lhs.product == rhs.product && lhs.length == rhs.length && lhs.angle == rhs.angle && lhs.tubeDiameter == rhs.tubeDiameter && lhs.barDiameter == rhs.barDiameter && lhs.stemType == rhs.stemType
+    }
 }
